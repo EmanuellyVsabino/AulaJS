@@ -5,8 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+
+        body
+        {
+            margin : 0;
+            padding : 0;
+        }
+
+        h1
+        {
+            background-color:  rgba(80, 1, 154, 0.823);
+            color : white;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h2
+        {
+           
+            color : black;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: rgba(80, 1, 154, 0.823);
+        }
+
+        form
+        {
+            border : 1px solid  rgba(80, 1, 154, 0.823);
+            width: 430px;
+            margin : 15px auto;
+            font-size: 20px;
+            padding: 10px;
+            box-shadow: 0px 0px 20px blueviolet;
+        }
+
+        input[type=text]
+        {
+            display: block;
+            
+            padding : 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color : violet;
+            border : 1px solid  rgba(80, 1, 154, 0.823);
+            border-radius: 10px;
+            width: 400px;
+            
+    
+        }
+
+        .botao
+        {
+            background-color:rgba(80, 1, 154, 0.823);
+            color:white;
+            padding: 15px;
+            width: 400px;
+        }
+
+        .botao:hover
+        {
+            background-color:purple;
+            padding :20px;
+            width: 399px;
+            
+        
+           
+        }
+
+        .centralizado
+        {
+            text-align: center;
+        }
+ 
+
+    </style>
 </head>
 <body>
+    <h1>Cadastro de Cliente</h1>
+
+ <form>
+    <h2>Informações Pessoais</h2>
+    <div class="form-group">
+            <label for="pet-name">Nome completo:</label><br>
+            <input type="text"  required>
+        </div>
+          <div class="form-group">
+            <label for="pet-type">E-mail:</label><br>
+            <input type="text"required>
+        </div>
+        <div class="form-group">
+                <label for="owner-name">Número de Telefone:</label><br>
+                <input type="text"  required>
+            </div>
+
+            <h2>Detalhes do Pedido</h2>
+
+            <div class="form-group">
+       <label form="owner-name">Produto Desejado:</label><br>
+        <input type="text"  required>
+         </div>
+         
+         <div class="form-group">
+            <label form="owner-name">Quantidade:</label><br>
+            <input type="text"  required>
+         </div>
+
+         <h2>Entrega</h2>
+         <div class="form-group">
+                <label form="owner-name">Endereço Completo:</label><br>
+                 <input type="text"  required>
+                  </div>
+                  
+                  <div class="form-group">
+                     <label form="owner-name">Bairro:</label><br>
+                     <input type="text"  required>
+                  </div>
+
+                  <p class="centralizado" >
+
+                 <input type="submit" value="Finalizar Cadastro"class="botao" >
+                    </p>
+            
+
+
+    </form>
+
     
 </body>
 </html>
