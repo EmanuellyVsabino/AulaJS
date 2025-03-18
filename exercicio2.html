@@ -4,118 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-
-        body
-        {
-            margin : 0;
-            padding : 0;
-        }
-
-        h1
-        {
-            background-color: purple;
-            color : white;
-            text-align: center;
-            padding: 20px;
-            margin: 0;
-        }
-
-        form
-        {
-            border : 1px solid purple;
-            width: 500px;
-            margin : 15px auto;
-            font-size: 20px;
-            padding: 10px;
-            box-shadow: 0px 0px 20px blueviolet;
-        }
-
-        input[type=text]
-        {
-            display: block;
-            
-            padding : 10px;
-            font-size: 20px;
-            font-weight: bold;
-            color : violet;
-            border : 1px solid blue;
-            border-radius: 10px;
-            width: 400px;
-        }
-
-        .botao
-        {
-            background-color: white;
-            color : blue;
-            padding: 15px;
-            width: 150px;
-        }
-
-        .botao:hover
-        {
-            background-color: white;
-        }
-
-        .centralizado
-        {
-            text-align: center;
-        }
- 
-
-    </style>
 </head>
 <body>
-    <h1>Cadastro do Carro</h1>
-
-
-  <form>
-    <h2>Informações sobre seu Carro:</h2>
-
-        <div class="form-group">
-            <label for="pet-name">Nome do Carro:</label><br>
-            <input type="text"  required>
-        </div>
-
-        <div class="form-group">
-            <label for="pet-type">Marca do Carro ex(ford, honda, tesla, etc...):</label><br>
-            <input type="text"required>
-        </div>
-
-        <div class="form-group">
-            <label for="pet-age">Cor do Carro:</label><br>
-            <input type="text" required>
-        </div>
-
-        <div class="form-group">
-            <label for="owner-name">Quantidades de cavalos(motor...): </label><br>
-            <input type="text"  required>
-        </div>
-        
-        <div class="form-group">
-          <label form="owner-name">Tipo do Carro(esportivo, comun, etc...):</label><br>
-          <input type="text"  required>
-          </div>
-          <div class="form-group">
-            <label form="owner-name">Preço do Carro:</label><br>
-            <input type="text"  required>
-            </div>
-            <div class="form-group">
-                <label form="owner-name">maior quinometragem do Carro:</label><br>
-                <input type="text"  required>
-                </div>
-          <p class="centralizado" >
-
-            <input type="button" value="Clique aqui !" class="botao" >
-
+    <h1>Aula 02 - Exercicio 2</h1>
+    <form>
+        <p>
+            Digite a temperatura em graus Fahrenheit<br>
+            <input type=" text" id="temperatura">
         </p>
+        <p>
+            <input type="button" value="Exercicio 2" onclick="exercicio2()">
+        </p>
+    </form>
+    <p id="mensagem">
+     
+    </p>
 
-
-
-        </form>
-
-
- 
-    
+    <script src="exercicio.js"></script>
 </body>
 </html>

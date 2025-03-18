@@ -1,116 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de PET</title>
-    <style>
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
-
-        h1 {
-            background-color: #28a745;
-            color: white;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-            font-size: 2em;
-        }
-
-        form {
-            margin: auto;
-            width: 620px;
-            border: 1px solid #ddd;
-            margin-top: 40px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            font-size: 1.4em;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        label {
-            font-weight: bold;
-            color: #333;
-        }
-
-        input[type=text], input[type=number], input[type=email] {
-            width: 95%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 1em;
-            background-color: #f9f9f9;
-        }
-
-        input[type=submit] {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            width: 100%;
-            font-size: 1.1em;
-            cursor: pointer;
-        }
-
-        input[type=submit]:hover {
-            background-color: #218838;
-        }
-
-        input[type=submit]:active {
-            background-color: #1e7e34;
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-    </style>
+    <title>Document</title>
 </head>
 <body>
-
-    <h1>Cadastro de PET</h1>
-
+    <h1>Aula 02 - Exercicio 1</h1>
     <form>
-        <h2>Informações do PET</h2>
+        <p>
+            Digite um número qualquer<br>
+            <input type=" text" id="numero">
 
-        <div class="form-group">
-            <label for="pet-name">Nome do PET:</label><br>
-            <input type="text" id="pet-name" name="pet-name" required>
-        </div>
+        </p>
+        <p>
+            <input type="button" value="Exercicio 1" onclick="exercicio1()">
+        </p>
+    </form>
+    
+    <p id="mensagem">
+     
+    </p>
 
-        <div class="form-group">
-            <label for="pet-type">Tipo de PET (ex: cachorro, gato):</label><br>
-            <input type="text" id="pet-type" name="pet-type" required>
-        </div>
-
-        <div class="form-group">
-            <label for="pet-age">Idade do PET (anos):</label><br>
-            <input type="number" id="pet-age" name="pet-age" required>
-        </div>
-
-        <h2>Informações do Responsável</h2>
-
-        <div class="form-group">
-            <label for="owner-name">Nome do responsável</label><br>
-            <input type="number" id="pet-age" name="pet-age" required>
-        </div>
-        </form>
-        </body>
-        </html>
+    <script src="exercicio.js"></script>
+</body>
+</html>
